@@ -6,6 +6,9 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge"
 import { Menu, X, Star, Clock, Users, Award, Phone, Mail, MapPin, ChevronRight } from "lucide-react"
 import Image from "next/image"
+import { EditableText } from '@/components/admin/EditableText'
+import { EditableImage } from '@/components/admin/EditableImage'
+import { AdminLogin } from '@/components/admin/AdminLogin'
 
 export default function TaekwondoSummerCamp() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -182,12 +185,13 @@ export default function TaekwondoSummerCamp() {
               <Badge className="mb-4 bg-gradient-to-r from-blue-600 to-amber-500 text-white px-4 py-2 text-sm font-semibold">
                 Summer 2024 • Nafplio, Greece
               </Badge>
-              <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6 leading-tight">
-                Kick Into
-                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-amber-500">
-                  Summer Fun!
-                </span>
-              </h1>
+              <EditableText
+                section="hero"
+                contentKey="title"
+                initialValue="Discover Martial Arts Excellence in Historic Nafplio"
+                as="h1"
+                className="text-4xl md:text-6xl font-bold text-white mb-6"
+              />
               <p className="text-xl text-gray-600 mb-8 max-w-2xl">
                 Join our exciting Taekwondo summer camp in beautiful Nafplio! Learn martial arts, make friends, and
                 build confidence in a fun, safe environment.
@@ -2456,6 +2460,8 @@ export default function TaekwondoSummerCamp() {
           Register Now!
         </Button>
       </div>
+
+      <AdminLogin />
     </div>
   )
 }
