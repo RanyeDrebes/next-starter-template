@@ -805,7 +805,7 @@ export default function TaekwondoSummerCamp() {
                 <div className="p-4">
                   <h3 className="font-bold text-lg text-gray-900 mb-2">Parent Testimonials</h3>
                   <p className="text-gray-600 text-sm mb-3">
-                    Hear what parents say about their children's camp experience.
+                    Hear what parents say about their children&apos;s camp experience.
                   </p>
                   <Badge variant="outline" className="border-cyan-500 text-cyan-600 text-xs">
                     Testimonials
@@ -853,7 +853,7 @@ export default function TaekwondoSummerCamp() {
                 <div className="p-4">
                   <h3 className="font-bold text-lg text-gray-900 mb-2">Instructor Insights</h3>
                   <p className="text-gray-600 text-sm mb-3">
-                    Our expert instructors discuss the camp's philosophy and approach.
+                    Our expert instructors discuss the camp&apos;s philosophy and approach.
                   </p>
                   <Badge variant="outline" className="border-cyan-500 text-cyan-600 text-xs">
                     Testimonials
@@ -1078,7 +1078,7 @@ export default function TaekwondoSummerCamp() {
                       <Star key={i} className="w-5 h-5 text-yellow-500 fill-current" />
                     ))}
                   </div>
-                  <p className="text-gray-700 mb-4 italic">"{testimonial.text}"</p>
+                  <p className="text-gray-700 mb-4 italic">&quot;{testimonial.text}&quot;</p>
                   <div className="border-t pt-4">
                     <p className="font-semibold text-gray-900">{testimonial.name}</p>
                     <p className="text-sm text-gray-600">Parent of {testimonial.child}</p>
@@ -1282,7 +1282,7 @@ export default function TaekwondoSummerCamp() {
                     </div>
                     <h3 className="text-xl font-semibold text-gray-900 mb-2">No results found</h3>
                     <p className="text-gray-600 mb-4">
-                      We couldn't find any FAQ questions matching "{faqSearch}". Try different keywords or contact us
+                      We couldn&apos;t find any FAQ questions matching &quot;{faqSearch}&quot;. Try different keywords or contact us
                       directly.
                     </p>
                     <Button
@@ -1358,7 +1358,7 @@ export default function TaekwondoSummerCamp() {
             <div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-blue-100">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Still Have Questions?</h3>
               <p className="text-gray-600 mb-6">
-                We're here to help! Contact us directly and we'll be happy to answer any additional questions about our
+                We&apos;re here to help! Contact us directly and we&apos;ll be happy to answer any additional questions about our
                 summer camp.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -1392,7 +1392,7 @@ export default function TaekwondoSummerCamp() {
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-amber-500">Touch</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Ready to enroll your child or have questions about our Taekwondo summer camp? We're here to help!
+              Ready to enroll your child or have questions about our Taekwondo summer camp? We&apos;re here to help!
             </p>
           </div>
 
@@ -1490,7 +1490,7 @@ export default function TaekwondoSummerCamp() {
                 <CardHeader>
                   <CardTitle className="text-2xl font-bold text-gray-900">Send Us a Message</CardTitle>
                   <CardDescription className="text-gray-600">
-                    Fill out the form below and we'll get back to you as soon as possible.
+                    Fill out the form below and we&apos;ll get back to you as soon as possible.
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -1553,7 +1553,7 @@ export default function TaekwondoSummerCamp() {
 
                     <div>
                       <label htmlFor="childAge" className="block text-sm font-medium text-gray-700 mb-2">
-                        Child's Age
+                        Child&apos;s Age
                       </label>
                       <select
                         id="childAge"
@@ -1613,7 +1613,7 @@ export default function TaekwondoSummerCamp() {
 
                   <div className="mt-6 text-center text-sm text-gray-500">
                     <p>
-                      By submitting this form, you agree to our privacy policy. We'll only use your information to
+                      By submitting this form, you agree to our privacy policy. We&apos;ll only use your information to
                       respond to your inquiry.
                     </p>
                   </div>
@@ -1749,7 +1749,7 @@ export default function TaekwondoSummerCamp() {
               </span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Secure your child's spot in our exciting Taekwondo summer camp. Fill out the form below to get started!
+              Secure your child&apos;s spot in our exciting Taekwondo summer camp. Fill out the form below to get started!
             </p>
           </div>
 
@@ -1894,7 +1894,7 @@ export default function TaekwondoSummerCamp() {
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
                       <label htmlFor="childFirstName" className="block text-sm font-medium text-gray-700 mb-2">
-                        Child's First Name *
+                        Child&apos;s First Name *
                       </label>
                       <input
                         type="text"
@@ -1908,7 +1908,7 @@ export default function TaekwondoSummerCamp() {
 
                     <div>
                       <label htmlFor="childLastName" className="block text-sm font-medium text-gray-700 mb-2">
-                        Child's Last Name *
+                        Child&apos;s Last Name *
                       </label>
                       <input
                         type="text"
@@ -2188,7 +2188,7 @@ export default function TaekwondoSummerCamp() {
                             className="mt-1 h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
                           />
                           <span className="text-sm text-gray-700">
-                            I give permission for photos/videos of my child to be shared on the camp's social media
+                            I give permission for photos/videos of my child to be shared on the camp&apos;s social media
                             accounts and website.
                           </span>
                         </label>
@@ -2207,7 +2207,7 @@ export default function TaekwondoSummerCamp() {
                             className="mt-1 h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
                           />
                           <span className="text-sm text-gray-700">
-                            I have read and agree to the camp's terms and conditions, liability waiver, and cancellation
+                            I have read and agree to the camp&apos;s terms and conditions, liability waiver, and cancellation
                             policy. *
                           </span>
                         </label>
@@ -2307,7 +2307,7 @@ export default function TaekwondoSummerCamp() {
                     <p className="text-sm text-gray-700">
                       <strong>Payment Instructions:</strong> After submitting this form, you will receive an email with
                       detailed payment instructions and an invoice. Full payment is required within 7 days to secure
-                      your child's spot. We accept major credit cards, bank transfers, and PayPal.
+                      your child&apos;s spot. We accept major credit cards, bank transfers, and PayPal.
                     </p>
                   </div>
                 </div>
@@ -2324,7 +2324,7 @@ export default function TaekwondoSummerCamp() {
                     </Button>
 
                     <p className="mt-4 text-sm text-gray-600">
-                      By submitting this form, you'll receive a confirmation email within 24 hours with payment
+                      By submitting this form, you&apos;ll receive a confirmation email within 24 hours with payment
                       instructions and additional camp details.
                     </p>
 
